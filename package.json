@@ -1,0 +1,29 @@
+{
+  "name": "red-exec-local",
+  "description": "To execute node-red with local settings.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ryoichi-obara",
+    "url": "http://ryoichi0102.hatenablog.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/ryoichi-obara/node-red-exec-local/issues"
+  },
+  "devDependencies": {
+    "node-red": "0.20.2"
+  },
+  "homepage": "https://github.com/ryoichi-obara/node-red-exec-local#readme",
+  "keywords": [
+    "Node-red"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryoichi-obara/node-red-exec-local.git"
+  },
+  "scripts": {
+    "start": "npx node-red --settings ./config/settings.js --userDir ./config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
