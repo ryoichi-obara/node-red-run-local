@@ -1,14 +1,15 @@
-# node-red-exec-local
+# Portable Node-RED
 
-To execute node-red with local settings.  
-Default Node-RED saves settings to user directory like ``%USERPROFILE%\.node-red``.  
-This repository starts with option settings to save local directory.  
+Execute Node-RED with local settings.  
+Node-RED with default options stores settings file to user directory like ``%USERPROFILE%\.node-red``.  
+This configured repository has options to store settings in local directory.  
+
 
 ## Prepare
 
 ```sh
-git clone [this repos]
-cd [repos dir]
+git clone git@github.com:ryoichi-obara/node-red-exec-local.git
+cd node-red-exec-local
 npm i
 ```
 
