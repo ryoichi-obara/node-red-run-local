@@ -7,19 +7,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Run Node-RED (Mac)",
+      "name": "Run Node-RED",
       "program": "${workspaceFolder}/node_modules/node-red/red.js",
-      "args": [
-        "--settings", "./config/settings.js",
-        "--userDir", "./config",
-        "--flowFile", "./config/flow.json"
-      ]
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Run Node-RED (Windows)",
-      "program": "${workspaceFolder}\\node_modules\\node-red\\red.js",
       "args": [
         "--settings", "./config/settings.js",
         "--userDir", "./config",
