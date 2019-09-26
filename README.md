@@ -32,7 +32,7 @@ For debugging purpose, this repository has ``./vscode/launch.json``.
 You can debug your code / your Node-RED execution easily in VS Code.  
 
 launch.json has two options to debug.
-Boths are useful for you debuuging.
+Both are useful for your debugging.
 One is to run Node-RED in VS Code debugging feature.  
 The other one is to pick up process that have already running.  
 
