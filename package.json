@@ -10,7 +10,7 @@
     "url": "https://github.com/ryoichi-obara/node-red-exec-local/issues"
   },
   "devDependencies": {
-    "node-red": "0.20.5"
+    "node-red": "1.0.1"
   },
   "homepage": "https://github.com/ryoichi-obara/node-red-exec-local#readme",
   "keywords": [
