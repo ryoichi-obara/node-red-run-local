@@ -1,5 +1,5 @@
 {
-  "name": "red-exec-local",
+  "name": "node-red-run-local",
   "description": "To execute node-red with local settings.",
   "version": "1.0.0",
   "author": {
@@ -7,20 +7,20 @@
     "url": "http://ryoichi0102.hatenablog.com/"
   },
   "bugs": {
-    "url": "https://github.com/ryoichi-obara/node-red-exec-local/issues"
+    "url": "https://github.com/ryoichi-obara/node-red-run-local/issues"
   },
   "devDependencies": {
     "node-red": "1.0.1"
   },
-  "homepage": "https://github.com/ryoichi-obara/node-red-exec-local#readme",
+  "homepage": "https://github.com/ryoichi-obara/node-red-run-local#readme",
   "keywords": [
-    "Node-red"
+    "Node-RED"
   ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryoichi-obara/node-red-exec-local.git"
+    "url": "git+https://github.com/ryoichi-obara/node-red-run-local.git"
   },
   "scripts": {
     "start": "npx node-red --settings ./config/settings.js --userDir ./config --flowFile ./config/flow.json",

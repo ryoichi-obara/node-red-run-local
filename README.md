@@ -1,6 +1,6 @@
 # Portable Node-RED
 
-Execute Node-RED with local settings.  
+Run Node-RED with local settings.  
 Node-RED with default options stores settings file to user directory like ``%USERPROFILE%\.node-red``.  
 This configured repository has options to store settings in local directory.  
 
@@ -8,12 +8,12 @@ This configured repository has options to store settings in local directory.
 ## Prepare
 
 ```sh
-git clone git@github.com:ryoichi-obara/node-red-exec-local.git
-cd node-red-exec-local
+git clone git@github.com:ryoichi-obara/node-red-run-local.git
+cd node-red-run-local
 npm i
 ```
 
-## Execute
+## Run
 
 ```sh
 npm start
@@ -44,7 +44,7 @@ The other one is to pick up process that have already running.
 
 ### Debug to pick process
 
-* Execute Node-RED e.g. ``npm start``
+* Run Node-RED e.g. ``npm start``
 * Click debug pane on side menu.
 * Select a configuration "Pick process".
 * Start debugging
