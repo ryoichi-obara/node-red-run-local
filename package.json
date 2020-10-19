@@ -23,7 +23,7 @@
     "url": "git+https://github.com/ryoichi-obara/node-red-run-local.git"
   },
   "scripts": {
-    "start": "npx node-red --settings ./config/settings.js --userDir ./config --flowFile ./config/flow.json",
+    "start": "npx node-red --userDir ./config --flowFile ./config/flow.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

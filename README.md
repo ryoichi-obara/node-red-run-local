@@ -22,7 +22,7 @@ npm start
 
 ## Portable settings
 
-``package.json`` in this repo uses ``--settings``, ``--userDir`` and ``--flowFile`` options to run Node-RED.
+``package.json`` in this repo uses ``--userDir`` and ``--flowFile`` options to run Node-RED.
 The options specify location to store in your local directory.
 
 
