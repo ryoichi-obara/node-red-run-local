@@ -1,5 +1,10 @@
 
 # ----------------------------------------
+# Comment-out this section if you don't want to manage config files.
+
+config
+
+# ----------------------------------------
 # https://github.com/github/gitignore/blob/master/Node.gitignore
 
 # Logs
